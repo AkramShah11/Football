@@ -3,16 +3,20 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    justify-content: center;
+    align-items: center;
     }
 /* header */
 header{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(65, 65, 247);
+    background-color: rgb(3, 3, 138);
+    margin-bottom: 50px;
+    padding: 50px 280px 0 300px ;
+    
 }
 .NavBar{
-    padding-left: 160px;
-    padding-right: 125px;
-    margin-bottom: 121px;
+    
+    margin-bottom: 50px; 
 }
 Nav{
     display: flex;
@@ -27,6 +31,13 @@ nav .atag a{
  nav .log a{
     background-color:  #E02C6D;
     color: white;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    
+    
+}
+nav .fa-arrow-right-to-bracket{
+    padding-right: 5px;
 }
 .banner{
     display: flex;
@@ -36,15 +47,119 @@ nav .atag a{
     color: white;
     Width: 485px;
     Height: 230px;
-    padding-left: 156px;
-    padding-right: 270px;
+    /* padding-left: 156px;
+    padding-right: 270px; */
 }
 button{
     background-color: #E02C6D;
     color: white;
+    border: 0;
+    padding: 10px;
+}
+button .fa-arrow-right{
+    padding-left: 8px;
 }
 .image img{
     Width: 556.01px;
     Height: 438px;
     padding-right: 140px;
+}
+
+/* main */
+
+/* player details */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    
+    
+}
+.player{
+    
+    width:  330px;
+    height: 474px;
+    align-items: center;
+   padding-bottom: 40px;
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.player-details{
+    
+    height: 200px;
+    width: 300px;
+    padding: 0 15px 15px 15px;
+}
+.player-details h1 {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.player-details p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    color:  #6C6C6C;
+}
+
+.image img{
+    height: 256px;
+    width: 300px;
+    padding: 15px;
+}
+
+/* highlights */
+.highlights{
+    
+    height: 309px;
+    width: 466px;
+    margin: 224px 69px 0px 182px;
+
+   
+}
+.highlights h1{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+    
+}
+.highlights p{
+    margin-top: 0px;
+    font-size: 16px;
+    /* font-weight: 700px; */
+    color: 
+    #6C6C6C;
+    
+}
+.highlights-cover img{
+    Width: 567px;
+    Height: 427px;
+    margin: 170px 156px 0px 0px;
+}
+
+/* footer */
+footer{
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer img{
+    height: 110px;
+    width: 485px;
+}
+.fa-brands{
+    font-size: 32px;
+    color: gray;
+    margin-top: 0px;
+    margin-right: 14px;
+    padding-left: 20px;
+}
+.social-icon p{
+    font-size: 18px;
 }
