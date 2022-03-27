@@ -1,0 +1,50 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&family=Poppins:wght@500&family=Roboto+Serif&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    }
+/* header */
+header{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(65, 65, 247);
+}
+.NavBar{
+    padding-left: 160px;
+    padding-right: 125px;
+    margin-bottom: 121px;
+}
+Nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav .atag a{
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+}
+ nav .log a{
+    background-color:  #E02C6D;
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: white;
+    Width: 485px;
+    Height: 230px;
+    padding-left: 156px;
+    padding-right: 270px;
+}
+button{
+    background-color: #E02C6D;
+    color: white;
+}
+.image img{
+    Width: 556.01px;
+    Height: 438px;
+    padding-right: 140px;
+}
