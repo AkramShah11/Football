@@ -180,7 +180,7 @@ footer img{
 
         }
        
-        .players, .high-in-end, .banner {
+        .players, .player, .high-in-end, .banner {
             display: flex;
             flex-direction: column;
             grid-template-columns: repeat(1, 1fr);
