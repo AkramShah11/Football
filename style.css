@@ -123,13 +123,15 @@ button .fa-arrow-right{
     
     height: 309px;
     width: 466px;
-    margin: 224px 69px 0px 182px;
+    
 
    
 }
 .high-in-end{
+    margin-top: 150px;
     display: flex;
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
 }
 .highlights h1{
@@ -149,7 +151,7 @@ button .fa-arrow-right{
 .highlights-cover img{
     Width: 567px;
     Height: 427px;
-    margin: 170px 156px 0px 0px;
+    /* margin: 190px 156px 0px 0px; */
 }
 
 /* footer */
