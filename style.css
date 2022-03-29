@@ -184,11 +184,22 @@ footer img{
             display: flex;
             flex-direction: column;
             grid-template-columns: repeat(1, 1fr);
+            
 
         }
        
         .highlights {
             padding: 0px 3px 0 3px;
+        }
+        .highlights-cover img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: auto;
+        }
+        .highlights-cover {
+            
         }
         .highlights h1{
             font-size: 30px;
