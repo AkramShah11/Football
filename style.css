@@ -121,6 +121,10 @@ button .fa-arrow-right{
 
    
 }
+.high-in-end{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .highlights h1{
     font-size: 45px;
     font-weight: 700px;
@@ -162,4 +166,38 @@ footer img{
 }
 .social-icon p{
     font-size: 18px;
+}
+/* mobile */
+@media only screen and (max-width: 688px) {
+
+    .container{
+        width: 100%;
+    }
+      
+        header{
+           padding: 20px; 
+
+        }
+       
+        .players, .high-in-end, .banner {
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+       
+        .highlights {
+            padding: 0px 3px 0 3px;
+        }
+        .highlights h1{
+            font-size: 30px;
+            font-weight: 700px;
+        }
+        footer img{
+            width: 350px;
+        }
+
+            
+        
+    
 }
